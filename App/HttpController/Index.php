@@ -20,4 +20,10 @@ class Index extends Base
         $this->response()->write('666');
         // TODO: Implement index() method.
     }
+
+    function test()
+    {
+        $this->response()->write('661231236');
+        // TODO: Implement index() method.
+    }
 }

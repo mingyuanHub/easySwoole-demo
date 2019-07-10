@@ -24,6 +24,6 @@ class Test extends Controller
     {
         //记录输出错误
         Trigger::getInstance()->error('test error');
-        $this->response()->write('user');
+        $this->response()->write('user1213123');
     }
 }
